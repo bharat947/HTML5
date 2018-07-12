@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>New Form Element</h1>
+    <form>
+        <div>
+            <label>First Name</label>
+            <input type="text" placeholder="Your First Name Only" required  autofocus>
+        </div>
+        <div>
+            <label>Last Name</label>
+            <input type="text" placeholder="Your Last Name Only">
+        </div>
+
+         <div>
+             <label>DoB</label>
+             <input type="date">
+         </div>
+
+         <div>
+             <label>Email</label>
+             <input type="email">
+         </div>
+
+         <div>
+             <label>Telephone</label>
+             <input type="tel">
+         </div>
+
+         <div>
+             <label>Age</label>
+             <input type="number" min="18" max="50" step="5">
+         </div>
+
+         <div>
+             <label>Rate your Skill in html</label>
+             <input type="range" min="1" max="10"> 
+         </div>
+
+         <div>
+             <label>Book your date</label>
+             <input type="date" min="2018-07-02" step="7">
+         </div>
+
+
+         <div>
+             <label>Color</label>
+             <input type="color">
+         </div>
+         <div>
+             <label>Progress</label>
+             <progress value="2" max="10" min="0"></progress>
+         </div>
+
+         <div>
+             <label>Select the score</label>
+             <input type="number" list="score">
+             <datalist id="score">
+                 <option value="10">10</option>
+                 <option value="20">20</option>
+                 <option value="30">30</option>
+             </datalist>
+         </div>
+
+
+
+
+        <button type="Submit">Submit</button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML5  Introduction-video</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+    <h1>HTML5 Video</h1>
+    <!----
+   <video width="640"  controls autoplay muted loop>
+       <source src="000.mp4" type="video/mp4">
+   </video>
+    -->
+
+    <video id="myvideo" width="640"  controls autoplay muted loop>
+        <source src="000.mp4" type="video/mp4">
+    </video>
+    <br>
+    <button onclick="playVideo()">Play</button>
+    <button onclick="pauseVideo()">Pause</button>
+</body>
+
+<script>
+    var videoref = document.getElementById("myvideo")
+    playVideo = function(){
+        videoref.play()
+    }
+    pauseVideo=function(){
+        videoref.pause()
+    }
+</script>
+
+</html>

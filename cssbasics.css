@@ -1,0 +1,28 @@
+h1,p{
+    color: red;
+}
+li{
+    color: green;
+
+}
+
+.mypara{
+    background-color: aquamarine;
+    text-shadow: 2px 2px white;
+}
+
+#div1{
+    font-size: 20px;
+}
+
+a{
+    color: green;
+    
+}
+a:hover{
+    color: blue;
+}
+a:visited{
+    color: grey;
+    text-decoration: none;
+}
